@@ -164,9 +164,9 @@ public class AdminSqlLiteOpenHelper extends SQLiteOpenHelper{
       elementos.execSQL("Insert into Paises values(null,'Estados Unidos','Be')");
       elementos.execSQL("Insert into Paises values(null,'China','Be')");
       elementos.execSQL("Insert into Paises values(null,'Madagascar','Be')");
-      elementos.execSQL("Insert into Paises values(null,'Ruanda ','Be')");
-      elementos.execSQL("Insert into Paises values(null,'Brasil ','Be')");
-      elementos.execSQL("Insert into Paises values(null,'Nigeria ','Be')");
+      elementos.execSQL("Insert into Paises values(null,'Ruanda','Be')");
+      elementos.execSQL("Insert into Paises values(null,'Brasil','Be')");
+      elementos.execSQL("Insert into Paises values(null,'Nigeria','Be')");
 
       elementos.execSQL("Insert into aplicaciones values(null,'En aleaciones antifricción (oro).','Na')");
       elementos.execSQL("Insert into aplicaciones values(null,'En la fabricación de desodorantes (en combinación con ácidos grasos).','Na')");
