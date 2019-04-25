@@ -16,7 +16,7 @@ public class AdminSqlLiteOpenHelper extends SQLiteOpenHelper{
                 "CONSTRAINT fk_elementos foreign key (simbolo_elem) References elementos(simbolo_elem))");
         elementos.execSQL("Create table paises(num_pais integer primary key autoincrement,pais_pais text,simbolo_elem varchar(3)," +
                 "CONSTRAINT fk_elementos1 foreign key (simbolo_elem) References elementos(simbolo_elem))");
-        elementos.execSQL("Insert into elemento values('H','1,008','Hidrogeno','1','1','1S','Otros no metales')");
+        elementos.execSQL("Insert into elemento values('H','1,008','Hidrógeno','1','1','1S','Otros no metales')");
         elementos.execSQL("Insert into elemento values('Na','22,990','Sodio','3','1','3S','Alcalinos')");//ya
         elementos.execSQL("Insert into elemento values('Li','6,94','Litio','2','1','2S','Alcalinos')");//ya
 

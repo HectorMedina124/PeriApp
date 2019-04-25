@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         int k2= btn.getCurrentTextColor();
         elemento.putExtra("ColorText",k2);
         startActivity(elemento);
+
     }
     public  void Buscar(View view){
 
@@ -155,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
         btns.add((Button) findViewById(R.id.btnKr));
         btns.add((Button) findViewById(R.id.btnLA));
         btns.add((Button) findViewById(R.id.btnLr));
+        btns.add((Button) findViewById(R.id.Li));
         btns.add((Button) findViewById(R.id.btnLu));
         btns.add((Button) findViewById(R.id.btnLv));
         btns.add((Button) findViewById(R.id.btnMc));
