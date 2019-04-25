@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".PantallaElemento">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="400dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173">
+
+        <Button
+            android:id="@+id/Salir"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="360dp"
+            android:layout_marginRight="360dp"
+            android:layout_marginBottom="222dp"
+            android:onClick="back"
+            android:text="x "
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.347"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/Elemento"
+            android:layout_width="204dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="H\n"
+            android:textColor="@android:color/black"
+            android:textSize="90sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.383"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/Elemento2"
+            android:layout_width="205dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="84dp"
+            android:gravity="center"
+            android:text="Hidrogeno\n 1,009"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.379"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Grupo"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Elemento2"
+            app:layout_constraintVertical_bias="0.244" />
+
+        <TextView
+            android:id="@+id/middle"
+            android:layout_width="410dp"
+            android:layout_height="7dp"
+            android:layout_marginTop="27dp"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tipo"
+            app:layout_constraintVertical_bias="0.125" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        style="@android:style/Widget.Holo.Light.ScrollView"
+        android:layout_width="332dp"
+        android:layout_height="361dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Grupo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grupo\n"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="243dp"
+                tools:layout_editor_absoluteY="261dp" />
+
+            <TextView
+                android:id="@+id/Periodo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Periodo\n"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="237dp" />
+
+            <TextView
+                android:id="@+id/bloque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Bloque\n"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="348dp" />
+
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Aplicaciones"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Informacion"
+                android:layout_width="match_parent"
+                android:layout_height="342dp"
+                android:text="
+"
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+            <TextView
+                android:id="@+id/Pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Paises que lo poseen"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:background="@color/colorAccent"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="622dp" />
+
+            <TextView
+                android:id="@+id/informacion2"
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                android:text="
+"
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="323dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

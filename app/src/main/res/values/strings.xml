@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PeriApp</string>
+    <string name="BtnH">H</string>
+    <string name="BtnLi">Li</string>
+    <string name="BtnBe">Be</string>
+    <string name="BtnNa">Na</string>
+    <string name="BtnMg">Mg</string>
+    <string name="BtnK">K</string>
+
+</resources>
